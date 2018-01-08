@@ -2,7 +2,7 @@ package sod.applc.modelo;
 import android.os.AsyncTask;
 
 /**
- * Created by sebastian on 4/12/17.
+ * Created by Ricardo on 4/12/17.
  */
 
 public  class HiloCliente extends AsyncTask<String, String, Cliente>{

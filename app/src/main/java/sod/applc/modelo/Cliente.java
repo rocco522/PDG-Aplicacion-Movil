@@ -16,7 +16,7 @@ import sod.applc.control.MainActivity;
 import sod.applc.modelo.ListenerMensaje;
 
 /**
- * Created by sebastian on 4/12/17.
+ * Created by Ricardo on 4/12/17.
  */
 
     public class Cliente  implements ListenerMensaje  {
