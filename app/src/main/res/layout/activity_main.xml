@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sod.applc.control.MainActivity">
+
+
+    <ToggleButton
+        android:id="@+id/btnPLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="ToggleButton"
+        android:textOff="Compresor ON"
+        android:textOn="Compresor OFF" />
+
+    <ToggleButton
+        android:id="@+id/btnCA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="PLC ON"
+        android:textOn="PLC OFF" />
+
+    <Button
+        android:id="@+id/btnPosicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Robot Home" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtConsola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/logs"
+        android:icon="@drawable/abc_ic_ab_back_mtrl_am_alpha"
+        android:title="Logs"
+         />
+    <!-- Settings, should always be in the overflow -->
+
+</menu>
